@@ -1,0 +1,36 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Section styles */
+section {
+  padding: 40px 0;
+}
