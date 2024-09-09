@@ -41,8 +41,10 @@ Before setting up the project, make sure you have the following installed:
     Using npm:
       ```bash
       npm install
+
     Or using yarn:
-      ```bash
+  
+   ```bash
       yarn install
       
 Running the App
