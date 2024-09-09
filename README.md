@@ -36,3 +36,51 @@ Before setting up the project, make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/my-responsive-app.git
    cd my-responsive-app
+
+2. **Install dependencies:**
+    Using npm:
+      ```bash
+      npm install
+    Or using yarn:
+      ```bash
+      yarn install
+      
+Running the App
+To run the development server, use the following command:
+
+Using npm: npm run dev
+
+Using yarn:yarn dev
+
+This will start the Next.js development server. Open http://localhost:3000 to view it in the browser.
+
+**Building for Production**
+To build the project for production:
+     ```bash
+      npm run build
+**Project Structure**
+The folder structure of the project is as follows:
+  ```bash
+    /app                   # App directory for pages
+      /about               # About page
+        page.js
+      /contact             # Contact page
+        page.js
+      page.js              # Home page (index)
+    /components            # Reusable components
+      Layout.js            # Layout component with navigation and footer
+    /styles                # CSS files
+      Layout.module.css    # Custom CSS for Layout component
+      globals.css          # Global styles
+    /public                # Public static assets (images, icons, etc.)
+
+
+
+##Technologies Used
+Next.js: The React framework used for building server-rendered applications.
+CSS: Custom styling for the layout and responsiveness.
+JavaScript (ES6+): The primary programming language for the app.
+HTML5: The structure of the app pages
+
+
+
